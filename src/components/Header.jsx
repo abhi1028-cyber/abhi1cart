@@ -4,14 +4,14 @@ function Header() {
   return (
     <div
       style={{
-        background: "#333",
+        background: "#222f91",
         padding: "15px",
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
       }}
     >
-      <h2 style={{ color: "white", margin: 0 }}>
+      <h2 style={{ color: "blue", margin: 0 }}>
         My MERN App
       </h2>
 
@@ -19,7 +19,7 @@ function Header() {
         <Link
           to="/"
           style={{
-            color: "white",
+            color: "pink",
             marginRight: "20px",
             textDecoration: "none",
           }}
